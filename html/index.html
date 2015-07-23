@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BitWrk - A Bitcoin-Friendly, Open Marketplace for Computing Power</title>
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" type="text/css" href="css/site.css" />
+<link rel="shortcut icon" href="img/favicon.ico" />
+<link rel="icon" href="img/favicon.ico" />
+</head>
+<body>
+<script src="js/jquery-1.10.2.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<div class="landing">
+<header id="mainheader">
+<video autoplay loop poster="vid/bitwrk-background.jpg" id="bgvid">
+<source src="vid/bitwrk-background.webm" type="video/webm">
+<source src="vid/bitwrk-background.mp4" type="video/mp4">
+</video><div class="logobox"><div class="logo"><img id="logo" src="img/logo_288x108.png" /><div class="tagline">An Open Marketplace for Computing Power</div></div></div>
+</header>
+<div class="container">
+<div class="jumbotron">
+<div class="row">
+<div class="col-sm-4">
+<h1>Buy</h1>
+<p>Accelerate your work by harnessing the computing power of the crowd, when you need it.
+</div><!-- .col-sm-4 -->
+<div class="col-sm-4">
+<h1>Sell</h1>
+<p>Monetize your hardware by providing computing power to the crowd in times of low workload.
+</div><!-- .col-sm-4 -->
+<div class="col-sm-4">
+<h1>Trade</h1>
+<p>Pay and get paid in Bitcoin, the independent, decentralized Internet currency.
+</div><!-- .row -->
+</div><!-- .col-sm-4 -->
+</div><!-- .jumbotron -->
+<div class="row">
+<div class="col-sm-8 col-sm-offset-2"><a href="https://github.com/indyjo/bitwrk/releases" class="btn btn-download btn-block">Download BitWrk for Win/Mac/Linux</a></div>
+</div><!-- .row -->
+</div><!-- .container -->
+</div><!-- .landing -->
+<div class="maincontent">
+<div class="container">
+<div class="row">
+<div class="col-sm-8 col-sm-offset-2">
+<div class="row"/>
+<div class="col-md-4"><a href="https://www.facebook.com/bitwrk" class="btn btn-primary btn-block" target="_blank">BitWrk on Facebook</a></div>
+<div class="col-md-4"><a href="https://twitter.com/BitWrk" class="btn btn-info btn-block" target="_blank">BitWrk on Twitter</a></div>
+<div class="col-md-4"><a href="https://github.com/indyjo/bitwrk" class="btn btn-default btn-block" target="_blank">BitWrk on GitHub</a></div>
+</div><!-- .row -->
+</div><!-- .col -->
+</div><!-- .row --><div class="row" style="margin-top: 5%">
+<div class="col-sm-12">
+
+<!-- Nav tabs -->
+<ul class="nav nav-tabs" role="tablist">
+<li role="presentation" class="active"><a href="#news" aria-controls="news" role="tab" data-toggle="tab">News</a></li>
+<li role="presentation""><a href="#about-bitwrk" aria-controls="about-bitwrk" role="tab" data-toggle="tab">BitWrk</a></li>
+<li role="presentation"><a href="#about-blender" aria-controls="about-blender" role="tab" data-toggle="tab">Blender 3D</a></li>
+<li role="presentation"><a href="#about-bitcoin" aria-controls="about-bitcoin" role="tab" data-toggle="tab">Bitcoin</a></li>
+<li role="presentation"><a href="#about-beta" aria-controls="about-beta" role="tab" data-toggle="tab">BETA</a></li>
+<li role="presentation"><a href="#faq" aria-controls="faq" role="tab" data-toggle="tab">FAQ</a></li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+<div role="tabpanel" class="tab-pane active fade in" id="news">
+<div class="media">
+<div class="media-left">
+<iframe width="256" height="144" src="http://www.youtube.com/embed/BHBe5g5KKiw" frameborder="0" allowfullscreen></iframe>
+</div><!-- .media-left -->
+<div class="media-body">
+<h4 class="media-heading">BitWrk Lightning Talk on 31C3 <small>Hamburg, Germany, Dec 30, 2014</small></h4>
+Jonas Eschenburg, developer of BitWrk, held a Lightning talk on BitWrk at the 31st annual
+<a href="http://events.ccc.de/congress/2014/wiki/Main_Page">Chaos Communication Congress (31C3)</a>.
+In his 5 minute talk, he explained the concepts behind BitWrk and gave an outlook on upcoming events.
+<p><a href="http://bitwrk.net/files/BitWrk-Talk-31C3.pdf">Slides (PDF)</a>. 
+</div><!-- .media-body -->
+</div><!-- .media -->
+</div><!-- .tab-panel #news -->
+<div role="tabpanel" class="tab-pane fade in" id="about-bitwrk">
+<h4>What is BitWrk?</h4>
+<p>BitWrk is both a piece of software for your computer, as well as a service. It is aimed at two groups of people:
+<ul><li><strong>The buyers:</strong> Users who require lots of computing power at their finger tips. For example, artists using rendering software such as Blender to create impressive movies.
+<li><strong>The sellers:</strong> Hardware owners who have computing power to spare and would like to monetize that resource in times of low workload.
+</ul>
+<p>BitWrk connects both groups in an easy-to-use way. It works like a stock exchange.
+Just not trading stocks, but computation tasks.
+<div class="row">
+<div class="col-sm-6"><img src="img/client-screenshot-2014-12-12-1.png" class="screenshot"></div>
+<div class="col-sm-6"><img src="img/client-screenshot-2014-12-12-3.png" class="screenshot"></div>
+<div class="screenshot-caption text-muted">The BitWrk client's user interface. The first image shows a number of buys and sells currently being dispatched. The second image shows the Bitcoin depositing process. Sending Bitcoin to the right address from your cell phone is easy thanks to <em>QR-codes</em>.</div>
+</div><!-- .row -->
+</div><!-- .tab-panel #about-bitwrk -->
+<div role="tabpanel" class="tab-pane fade" id="about-blender">
+<img src="img/screenshot-2014-12-14-1.png" class="screenshot"/>
+<div class="screenshot-caption text-muted">Blender rendering a scene using the <code>bitwrk-blender</code> add-on. The flat blocks in the image are work units that are currently being dispatched to the BitWrk service.</div>
+<p>BitWrk describes itself as a <em>marketplace for computing power</em>. If that sounds
+abstract, relax!
+<p>Truth is, BitWrk is currently covering only one use case: Being a
+distributed rendering service for <a href="http://blender.org/">Blender</a>, the free 3D
+rendering software.
+<p>BitWrk includes <code>bitwrk-blender</code>,
+an add-on enabling Blender to dispatch rendering jobs to the BitWrk service.
+</div><!-- .tabpanel -->
+<div role="tabpanel" class="tab-pane fade" id="about-bitcoin">
+<img src="img/BC_Logotype_Reverse.png" class="screenshot"/>
+<p>BitWrk uses <em>Bitcoin</em>, a novel payment method. Bitcoin enables you to send money,
+via your computer or cell phone, to anybody else on the Internet. 
+<p>In order to <em>buy</em> computing power on BitWrk, you will need to either earn Bitcoin by
+<em>selling</em> computing power on BitWrk, or purchase some Bitcoin beforehand. Luckily,
+there are exchanges where you can buy Bitcoin for Dollars, Euros etc.
+<p>If you haven't used Bitcoin before, start here:
+<a href="http://bitcoin.org/">bitcoin.org</a>.
+</div><!-- .tabpanel -->
+<div role="tabpanel" class="tab-pane fade" id="about-beta">
+<h4>Beta test currently taking place</h4>
+<p>As of December 2014, BitWrk is in BETA phase, which means that it has reached a stage where it can be useful already. Please help the author of BitWrk by taking part now! After all, BitWrk is Open Source and meant to be a community project.
+<p>At the current stage of the test, BitWrk is only open to buyers. It wil gradually open up to sellers too.
+</div><!-- .tab-pane #about-beta -->
+<div role="tabpanel" class="tab-pane fade" id="faq">
+<h4>Frequently Asked Questions (FAQ)</h4>
+<dl>
+<dt>Will BitWrk accelerate my computer?
+<dd>No. BitWrk will accelerate very specific software, and that software has been
+converted to work with BitWrk. At the moment, that is only Blender 3D. Not all kinds
+of software are equally well-suited to be adapted for BitWrk.
+<dt>Will my device/computer run BitWrk?
+<dd>The BitWrk client software runs on Windows, Mac OS X and Linux. The front-end is web-based
+and can be displayed on any mobile device, too.
+<dt>Where can I register a BitWrk account?
+<dd>You don't have to. When you run the client software for the first time, it creates an
+account for you. It will keep a key file (<em>privatekey.wif</em>) to identify itself to
+the BitWrk service. Your account will be named something like <em>1MwvTNehPz7U5XYn3h1G7LVPANv3GFq6JR</em>.
+This does not only look like a Bitcoin address, it is one. BitWrk's algorithms are based on Bitcoin
+technology.
+<dt>Does BitWrk cost money?
+<dd>The BitWrk client software is free (in fact, both client and server are Open Source).
+For buying computing power, you need a very small amount of money per transaction. That
+is the whole idea behind BitWrk. The service itself will deduct a small fee (currently
+3% but subject to change) off the price of each transaction.
+<dt>What's that animation on this page?
+<dd>Apart from looking pretty, it is actually a simulation of BitWrk's possible, future 
+user behavior rating system.
+</dl>
+</div><!-- .tab-pane #about-beta -->
+</div><!-- .tab-content -->
+</div><!-- .col -->
+</div><!-- .row -->
+</div><!-- .container -->
+</div><!-- .maincontent -->
+</body>
+</html>

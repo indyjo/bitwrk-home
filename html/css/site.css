@@ -1,0 +1,140 @@
+@import url("bootstrap.min.css");
+@import url("bootstrap-theme.min.css");
+
+
+header#mainheader {
+	position: relative;
+	width: 100%;
+	margin-bottom: -4%;
+}
+
+video#bgvid {
+	position: absolute; top: 0; left: 50%;
+	margin-left: -50%;
+	width: 100%;
+	z-index: -5;
+	background: url(../vid/bitwrk-background.jpg) no-repeat;
+	background-size: cover;
+}
+
+div.logobox {
+	width: 50%;
+	height: 12%;
+	padding-top: 6%;
+	padding-bottom: 8%;
+	margin: 0 auto;
+	overflow: overlay;
+}
+
+div.logo {
+	margin: auto auto;
+	text-align: center;
+}
+
+img#logo {
+	max-width: 100%;
+}
+
+.tagline {
+	color: #fff;
+	opacity: .3;
+	width: 100%;
+	font-size: 150%;
+	font-weight: lighter;
+	text-align: center;
+}
+
+div.landing {
+	background: rgb(55, 55, 55);
+	min-height: 100vh;
+	position: relative;
+	z-index: 20;
+	border-bottom: 4px solid rgb(168, 69, 42);
+	padding-bottom: 30px;
+}
+
+div.maincontent {
+	padding-top: 30px;
+	border-top: 4px solid rgb(89, 144, 185);
+	border-bottom: 4px solid rgb(168, 69, 42);
+	min-height: 100vh;
+}
+
+div.midsection {
+	background: rgb(89, 144, 185);
+	padding-top: 15%;
+	min-height: 100vh;
+}
+
+.jumbotron h1 {
+	font-weight: lighter;
+	color: rgb(89, 144, 185);
+}
+
+.jumbotron {
+	border-bottom: 1px solid rgb(89, 144, 185);
+	border-top: 1px solid rgb(168, 69, 42);
+	background: #282828;
+	color: rgb(168, 69, 42);
+}
+
+.btn-download {
+	border-color: rgb(89, 144, 185);
+	border-radius: 3px;
+	background: #333;
+	color: rgb(168, 69, 42);
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.btn-download:hover {
+	border-color: rgb(168, 69, 42);
+	background: rgb(168, 69, 42);
+	color: #333;
+}
+
+img.screenshot {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+div.screenshot-caption {
+	margin-bottom: 2em;
+	padding-right: 3em;
+	padding-left: 3em;
+}
+
+ul.nav-tabs {
+	margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+	header  div.tagline {
+		font-size: 120%;
+	}
+}
+@media (max-width: 640px) {
+	header  div.tagline {
+		font-size: 90%;
+	}
+}
+@media (max-width: 480px) {
+	header  div.tagline {
+		color: #888;
+		opacity: 1;
+	}
+	header video#bgvid {
+		display: none;
+	}
+	header#mainheader {
+		margin-bottom: 0px;
+	}
+	div.logobox {
+		position:relative;
+		top: auto; left: auto;
+		max-width: 80%;
+		margin: auto;
+	}
+}
+
