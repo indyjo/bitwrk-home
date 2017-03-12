@@ -46,24 +46,61 @@ img#logo {
 
 div.landing {
 	background: rgb(55, 55, 55);
-	min-height: 100vh;
+	/*min-height: 100vh;*/
 	position: relative;
 	z-index: 20;
-	border-bottom: 4px solid rgb(168, 69, 42);
 	padding-bottom: 30px;
+	border-bottom: 4px solid rgb(168, 69, 42);
 }
 
 div.maincontent {
+	background: white;
 	padding-top: 30px;
-	border-top: 4px solid rgb(89, 144, 185);
-	border-bottom: 4px solid rgb(168, 69, 42);
 	min-height: 100vh;
+	color: rgb(41, 47, 51);
+	padding-bottom: 2%;
 }
 
-div.midsection {
+h1, h2, h3, h4, h5, h6, dt {
+	/*font-weight: lighter;*/
+	color: rgb(89, 144, 185);
+}
+
+.midsection {
+	color: #cba;
+	background: rgb(168, 69, 42);
+	padding-top: 2%;
+	padding-bottom: 2%;
+	/*min-height: 100vh;*/
+	font-weight: lighter;
+	font-size: 160%;
+}
+
+.midsection a:hover {
+	color:white;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.midsection2 {
+	background: rgb(175, 101, 80);
+}
+
+.midsection3 {
+	color: #C1E2FB;
 	background: rgb(89, 144, 185);
-	padding-top: 15%;
-	min-height: 100vh;
+}
+
+.midsection h1, .midsection h2, .midsection h3, .midsection h4, .midsection h5, .midsection h6, .midsection dt, .midsection a {
+	font-weight: initial;
+	color: #edc;
+}
+
+.midsection3 h1, .midsection3 a {
+	color: #EAF6FF;
+}
+
+.midsection p {
+	padding-left: 1em;
 }
 
 .jumbotron h1 {
@@ -81,17 +118,21 @@ div.midsection {
 .btn-download {
 	border-color: rgb(89, 144, 185);
 	border-radius: 3px;
-	background: #333;
-	color: rgb(168, 69, 42);
 	font-weight: bold;
 	font-size: 120%;
 }
 
 .btn-download:hover {
-	border-color: rgb(168, 69, 42);
-	background: rgb(168, 69, 42);
-	color: #333;
+	border-color: rgb(89, 144, 185);
+	background: rgb(89, 144, 185);
+	color: white;
 }
+
+.btn-learnmore {
+	border-color: rgba(255, 255, 255, 0.5);
+	border-radius: 3px;
+}
+
 
 img.screenshot {
 	display: block;
@@ -109,6 +150,14 @@ ul.nav-tabs {
 	margin-bottom: 15px;
 }
 
+.thumbnail-width {
+	width: 266px;
+}
+
+a, a:hover {
+	color: #87c2ed;
+}
+
 @media (max-width: 768px) {
 	header  div.tagline {
 		font-size: 120%;
@@ -117,6 +166,10 @@ ul.nav-tabs {
 @media (max-width: 640px) {
 	header  div.tagline {
 		font-size: 90%;
+	}
+	
+	.media-left, .media-right {
+		display: block;
 	}
 }
 @media (max-width: 480px) {

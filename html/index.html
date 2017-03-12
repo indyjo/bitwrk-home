@@ -10,12 +10,14 @@
 <body>
 <script src="js/jquery-1.10.2.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.flot.min.js"></script>
+<script src="js/jquery.flot.time.min.js"></script>
 <div class="landing">
 <header id="mainheader">
 <video autoplay loop poster="vid/bitwrk-background.jpg" id="bgvid">
 <source src="vid/bitwrk-background.webm" type="video/webm">
 <source src="vid/bitwrk-background.mp4" type="video/mp4">
-</video><div class="logobox"><div class="logo"><img id="logo" src="img/logo_288x108.png" /><div class="tagline">An Open Marketplace for Computing Power</div></div></div>
+</video><div class="logobox"><div class="logo"><img id="logo" src="img/logo_flat.png" /><div class="tagline">An Open Marketplace for Computing Power</div></div></div>
 </header>
 <div class="container">
 <div class="jumbotron">
@@ -34,40 +36,128 @@
 </div><!-- .row -->
 </div><!-- .col-sm-4 -->
 </div><!-- .jumbotron -->
+
 <div class="row">
-<div class="col-sm-8 col-sm-offset-2"><a href="https://github.com/indyjo/bitwrk/releases" class="btn btn-download btn-block">Download BitWrk for Win/Mac/Linux</a></div>
+<div class="col-sm-2 col-sm-push-5">
+<a href="https://twitter.com/BitWrk" class="twitter-follow-button center-block" data-show-count="false" data-size="large">Follow @BitWrk</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div><!-- .col-sm-2 -->
 </div><!-- .row -->
+
 </div><!-- .container -->
 </div><!-- .landing -->
-<div class="maincontent">
+
+<div class="midsection">
 <div class="container">
 <div class="row">
-<div class="col-sm-8 col-sm-offset-2">
-<div class="row"/>
-<div class="col-md-4"><a href="https://www.facebook.com/bitwrk" class="btn btn-primary btn-block" target="_blank">BitWrk on Facebook</a></div>
-<div class="col-md-4"><a href="https://twitter.com/BitWrk" class="btn btn-info btn-block" target="_blank">BitWrk on Twitter</a></div>
-<div class="col-md-4"><a href="https://github.com/indyjo/bitwrk" class="btn btn-default btn-block" target="_blank">BitWrk on GitHub</a></div>
+<div class="col-sm-4 col-sm-push-8">
+<img src="img/screenshot-2014-12-14-1.png" class="screenshot thumbnail"/>
+</div><!-- .col-sm-4 -->
+<div class="col-sm-8 col-sm-pull-4">
+<h1>Unleash the swarm</h1>
+<p>BitWrk delivers powerful 3D rendering over the internet. If you're a 3D artist using Blender to
+produce 3D pictures and animations, then BitWrk might be the right tool for you.</p>
+<p>By dispatching your work to a swarm of computers on the Internet, BitWrk reduces your
+rendering times significantly.</p>
+<p><a href="#anchor_blender" class="btn btn-learnmore">Learn more...</a></p>
+</div><!-- .col-sm-8 -->
 </div><!-- .row -->
-</div><!-- .col -->
-</div><!-- .row --><div class="row" style="margin-top: 5%">
-<div class="col-sm-12">
+</div><!-- .container -->
+</div><!-- .midsection -->
 
-<!-- Nav tabs -->
-<ul class="nav nav-tabs" role="tablist">
-<li role="presentation" class="active"><a href="#news" aria-controls="news" role="tab" data-toggle="tab">News</a></li>
-<li role="presentation""><a href="#about-bitwrk" aria-controls="about-bitwrk" role="tab" data-toggle="tab">BitWrk</a></li>
-<li role="presentation"><a href="#about-blender" aria-controls="about-blender" role="tab" data-toggle="tab">Blender 3D</a></li>
-<li role="presentation"><a href="#about-bitcoin" aria-controls="about-bitcoin" role="tab" data-toggle="tab">Bitcoin</a></li>
-<li role="presentation"><a href="#about-beta" aria-controls="about-beta" role="tab" data-toggle="tab">BETA</a></li>
-<li role="presentation"><a href="#faq" aria-controls="faq" role="tab" data-toggle="tab">FAQ</a></li>
-</ul>
+<div class="midsection midsection2">
+<div class="container">
+<div class="row">
+<div class="col-sm-4">
+<img src="img/client-screenshot-2014-12-12-1.png" class="screenshot">
+</div><!-- .col-sm-4 -->
+<div class="col-sm-8">
+<h1>Be the swarm</h1>
+<p>BitWrk allows you to switch sides and be a part of the swarm.</p>
+<p>By sharing your hardware, <em>you</em> will be able to make money with BitWrk. This is what makes BitWrk unique.</p>
+<p>Like in a stock exchange, you decice what price to sell for.</p>
+<p><a href="#anchor_selling" class="btn btn-learnmore">Learn more...</a></p>
+</div><!-- .col-sm-8 -->
+</div><!-- .row -->
+</div><!-- .container -->
+</div><!-- .midsection -->
 
-<!-- Tab panes -->
-<div class="tab-content">
-<div role="tabpanel" class="tab-pane active fade in" id="news">
+<div class="midsection midsection3">
+<div class="container">
+<div class="row">
+<div class="col-sm-4 col-sm-push-8">
+<img src="img/BC_Logotype_Reverse.png" class="screenshot">
+</div><!-- .col-sm-4 -->
+<div class="col-sm-8 col-sm-pull-4">
+<h1>Pay and get paid in Bitcoin</h1>
+<p>Employing the famous Internet currency makes BitWrk a
+new kind of cloud computing, firmly in the hands of the community.</p>
+<p>BitWrk depends on its community, and you're invited to be a part of it.
+Try buying some Blender rendering for an amount as small as 1&nbsp;mBTC.</p>
+<p><a href="#anchor_bitcoin" class="btn btn-learnmore">Learn more...</a></p>
+</div><!-- .col-sm-8 -->
+</div><!-- .row -->
+</div><!-- .container -->
+</div><!-- .midsection -->
+
+
+<div class="maincontent">
+<div class="container">
+
+<div class="row">
+<div class="col-sm-3" style="padding-top: 1em"><a href="https://www.facebook.com/bitwrk" class="btn btn-primary btn-block" target="_blank">BitWrk on Facebook</a></div>
+<div class="col-sm-6" style="padding-top: 1em"><a href="https://github.com/indyjo/bitwrk/releases" class="btn btn-download btn-block">Download BitWrk for Win/Mac/Linux</a></div>
+<div class="col-sm-3" style="padding-top: 1em"><a href="https://github.com/indyjo/bitwrk" class="btn btn-default btn-block" target="_blank">BitWrk on GitHub</a></div>
+</div><!-- .row -->
+
+<div class="row" style="margin-top: 5%">
+
+<div class="col-md-5 col-md-push-7">
+<a class="twitter-timeline" href="https://twitter.com/BitWrk" data-widget-id="653219900123664384">Tweets von @BitWrk </a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<h5 class='flot-tick-label' style="padding-top: 1em">Blender 2.76 512M (mBTC)</h5>
+<div id="placeholder-1" style="height: 200px" ></div>
+<p>This chart displays activity in the last 24 hours. It works like a stock exchange.
+If demand for Blender rendering is low, prices fall. If demand is high, prices may rise.
+If you're seeing nothing, then there hasn't been any activity during the last 24 hours, which
+probably means that you have exclusive access to the swarm's rendering power.</p>
+</div><!-- .col-md-5-->
+
+<div class="col-md-7 col-md-pull-5">
+<h1>Announcements</h1>
 <div class="media">
 <div class="media-left">
-<iframe width="256" height="144" src="http://www.youtube.com/embed/BHBe5g5KKiw" frameborder="0" allowfullscreen></iframe>
+<img src="img/screenshot-2015-11-01-266.png" class="thumbnail-width">
+</div><!-- .media-left -->
+<div class="media-body">
+<h4 class="media-heading">BitWrk 0.5.1 "Moon" released <small>Augsburg, Germany, Nov 01, 2015</small></h4>
+<p>This new release bings support for Blender 2.76, compressed data transmission,
+revised transaction logic and lots of bugs fixed.</p>
+<p>For more information, visit the
+<a href="https://github.com/indyjo/bitwrk/releases/tag/v0.5.1">Github release page</a>.
+</div><!-- .media-body -->
+</div><!-- .media -->
+<div class="media">
+<div class="media-left">
+<img src="img/client-screenshot-2014-12-12-3.png" class="thumbnail-width">
+</div><!-- .media-left -->
+<div class="media-body">
+<h4 class="media-heading">BitWrk 0.5.0 "Earth" released <small>Augsburg, Germany, Aug 10, 2015</small></h4>
+This release of the BitWrk software marks the beginning of BitWrk's integration into the Bitcoin payment system.
+Usually small amounts of Bitcoin can be transferred onto your BitWrk account, for buying Blender rendering power.
+Further announcements will be made in the following days. <p>For more information, visit the
+<a href="https://github.com/indyjo/bitwrk/releases/tag/v0.5.0">Github release page</a>.
+<p><strong>Update:</strong> A BETA test phase has been announced officially.
+<p>English-speaking users please refer to
+<a href="http://blenderartists.org/forum/showthread.php?378493-BitWrk-Distributed-Peer-to-Peer-rendering-goes-BETA">this
+forum post on blenderartists.org</a>.
+<p>German-speaking users please refer to
+<a href="https://www.blendpolis.de/viewtopic.php?f=12&t=52051">this forum post on blendpolis.de</a>.
+</div><!-- .media-body -->
+</div><!-- .media -->
+<div class="media">
+<div class="media-left">
+<iframe width="256" height="144" src="https://www.youtube.com/embed/BHBe5g5KKiw" frameborder="0" allowfullscreen></iframe>
 </div><!-- .media-left -->
 <div class="media-body">
 <h4 class="media-heading">BitWrk Lightning Talk on 31C3 <small>Hamburg, Germany, Dec 30, 2014</small></h4>
@@ -77,34 +167,29 @@ In his 5 minute talk, he explained the concepts behind BitWrk and gave an outloo
 <p><a href="http://bitwrk.net/files/BitWrk-Talk-31C3.pdf">Slides (PDF)</a>. 
 </div><!-- .media-body -->
 </div><!-- .media -->
-</div><!-- .tab-panel #news -->
-<div role="tabpanel" class="tab-pane fade in" id="about-bitwrk">
-<h4>What is BitWrk?</h4>
-<p>BitWrk is both a piece of software for your computer, as well as a service. It is aimed at two groups of people:
-<ul><li><strong>The buyers:</strong> Users who require lots of computing power at their finger tips. For example, artists using rendering software such as Blender to create impressive movies.
-<li><strong>The sellers:</strong> Hardware owners who have computing power to spare and would like to monetize that resource in times of low workload.
-</ul>
-<p>BitWrk connects both groups in an easy-to-use way. It works like a stock exchange.
-Just not trading stocks, but computation tasks.
-<div class="row">
-<div class="col-sm-6"><img src="img/client-screenshot-2014-12-12-1.png" class="screenshot"></div>
-<div class="col-sm-6"><img src="img/client-screenshot-2014-12-12-3.png" class="screenshot"></div>
-<div class="screenshot-caption text-muted">The BitWrk client's user interface. The first image shows a number of buys and sells currently being dispatched. The second image shows the Bitcoin depositing process. Sending Bitcoin to the right address from your cell phone is easy thanks to <em>QR-codes</em>.</div>
-</div><!-- .row -->
-</div><!-- .tab-panel #about-bitwrk -->
-<div role="tabpanel" class="tab-pane fade" id="about-blender">
+
+
+<h1 id="anchor_blender">Blender</h1>
 <img src="img/screenshot-2014-12-14-1.png" class="screenshot"/>
 <div class="screenshot-caption text-muted">Blender rendering a scene using the <code>bitwrk-blender</code> add-on. The flat blocks in the image are work units that are currently being dispatched to the BitWrk service.</div>
 <p>BitWrk describes itself as a <em>marketplace for computing power</em>. If that sounds
 abstract, relax!
-<p>Truth is, BitWrk is currently covering only one use case: Being a
+<p>In fact, BitWrk is currently covering only one use case: Being a
 distributed rendering service for <a href="http://blender.org/">Blender</a>, the free 3D
 rendering software.
 <p>BitWrk includes <code>bitwrk-blender</code>,
 an add-on enabling Blender to dispatch rendering jobs to the BitWrk service.
-</div><!-- .tabpanel -->
-<div role="tabpanel" class="tab-pane fade" id="about-bitcoin">
-<img src="img/BC_Logotype_Reverse.png" class="screenshot"/>
+
+<h1 id="anchor_selling">Selling</h1>
+BitWrk is unique in that it allows you to have your computer accept work from others.
+This feature is what makes BitWrk an open marketplace. You decide what price your computer works for.
+On successful completion of a task, your account is credited with that amount.
+<img src="img/client-screenshot-2014-12-12-1.png" class="screenshot">
+In this screenshot, a worker is waiting for Blender rendering tasks which it sells for 100 µBTC each.
+
+
+<h1 id="anchor_bitcoin">Bitcoin</h1>
+<img src="img/BC_Logotype_Reverse.png" class="screenshot thumbnail-width thumbnail pull-right">
 <p>BitWrk uses <em>Bitcoin</em>, a novel payment method. Bitcoin enables you to send money,
 via your computer or cell phone, to anybody else on the Internet. 
 <p>In order to <em>buy</em> computing power on BitWrk, you will need to either earn Bitcoin by
@@ -112,14 +197,12 @@ via your computer or cell phone, to anybody else on the Internet.
 there are exchanges where you can buy Bitcoin for Dollars, Euros etc.
 <p>If you haven't used Bitcoin before, start here:
 <a href="http://bitcoin.org/">bitcoin.org</a>.
-</div><!-- .tabpanel -->
-<div role="tabpanel" class="tab-pane fade" id="about-beta">
-<h4>Beta test currently taking place</h4>
-<p>As of December 2014, BitWrk is in BETA phase, which means that it has reached a stage where it can be useful already. Please help the author of BitWrk by taking part now! After all, BitWrk is Open Source and meant to be a community project.
-<p>At the current stage of the test, BitWrk is only open to buyers. It wil gradually open up to sellers too.
-</div><!-- .tab-pane #about-beta -->
-<div role="tabpanel" class="tab-pane fade" id="faq">
-<h4>Frequently Asked Questions (FAQ)</h4>
+<img src="img/client-screenshot-2014-12-12-3.png" class="screenshot">
+This screenshot shows the Bitcoin depositing process. Sending Bitcoin to the right address from your cell phone is easy thanks to <em>QR-codes</em>.
+
+
+<h1>FAQ</h1>
+<h4>Frequently Asked Questions</h4>
 <dl>
 <dt>Will BitWrk accelerate my computer?
 <dd>No. BitWrk will accelerate very specific software, and that software has been
@@ -139,15 +222,52 @@ technology.
 For buying computing power, you need a very small amount of money per transaction. That
 is the whole idea behind BitWrk. The service itself will deduct a small fee (currently
 3% but subject to change) off the price of each transaction.
+<dt>Can I use BitWrk for privacy-sensitive projects?</dt>
+<dd>At the moment, no. Any seller may copy the work data you transmit. In a future version,
+there will be an option to restrict sellers to a trusted group.</dd>
+<dt>How can I transfer Bitcoin into and out of BitWrk?</dt>
+<dd>In the client user interface, switch to the "Accounts" page. For transferring money
+into BitWrk, you need to request a deposit address first. This usually takes a couple of
+seconds. Bitcoins transferred to that address will be credited to your account after
+one hour on average. Withdrawals from BitWrk are planned, but not implemented yet.
+<dt>If withdrawals from BitWrk aren't implemented yet, how can I get my money back?
+<dd>First of all, please make sure <em>not</em> to put any large amounts of money on your BitWrk
+accounts. Keep your deposits small in order to avoid the situation, until withdrawals can
+be triggered with the Bitcoin client. Until then, you could ask the developer, Jonas Eschenburg,
+jonas (at) bitwrk.net, to send the money of an account to the Bitcoin address of the same name.
 <dt>What's that animation on this page?
 <dd>Apart from looking pretty, it is actually a simulation of BitWrk's possible, future 
 user behavior rating system.
 </dl>
-</div><!-- .tab-pane #about-beta -->
-</div><!-- .tab-content -->
-</div><!-- .col -->
+
+
+</div><!-- .col-md-7-->
 </div><!-- .row -->
 </div><!-- .container -->
 </div><!-- .maincontent -->
 </body>
+
+<script>
+(function(){
+function show(query, article) {
+	var url = "https://bitwrk.appspot.com/query/prices?article="+article+"&format=flot&period=1d";
+	$.ajax(url).done(function(d) {
+		var redraw = function() {
+			$.plot(query, [ d ], {
+				xaxis:{mode:"time",
+				       timezone:"browser",
+				       max: (new Date().getTime()),
+				       min: (new Date().getTime())-24*60*60*1000,
+				},
+				colors:["rgb(89, 144, 185)"]
+			});
+		};
+		redraw();
+		$(window).resize(redraw);
+	});
+}
+show($("#placeholder-1"), "net.bitwrk/blender/0/2.76/512M");
+})();
+</script>
+
 </html>
