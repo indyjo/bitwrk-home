@@ -44,6 +44,12 @@
 </div><!-- .col-sm-2 -->
 </div><!-- .row -->
 
+<div class="row">
+<div class="col-sm-3" style="padding-top: 1em"><a href="https://www.facebook.com/bitwrk" class="btn btn-download btn-block" target="_blank">BitWrk on Facebook</a></div>
+<div class="col-sm-6" style="padding-top: 1em"><a href="https://github.com/indyjo/bitwrk/releases" class="btn btn-download btn-block">Download BitWrk for Win/Mac/Linux</a></div>
+<div class="col-sm-3" style="padding-top: 1em"><a href="https://github.com/indyjo/bitwrk" class="btn btn-download btn-block" target="_blank">BitWrk on GitHub</a></div>
+</div><!-- .row -->
+
 </div><!-- .container -->
 </div><!-- .landing -->
 
@@ -51,7 +57,7 @@
 <div class="container">
 <div class="row">
 <div class="col-sm-4 col-sm-push-8">
-<img src="img/screenshot-2014-12-14-1.png" class="screenshot thumbnail"/>
+<img src="img/screenshot-2017-04-18.png" class="screenshot"/>
 </div><!-- .col-sm-4 -->
 <div class="col-sm-8 col-sm-pull-4">
 <h1>Unleash the swarm</h1>
@@ -59,7 +65,19 @@
 produce 3D pictures and animations, then BitWrk might be the right tool for you.</p>
 <p>By dispatching your work to a swarm of computers on the Internet, BitWrk reduces your
 rendering times significantly.</p>
-<p><a href="#anchor_blender" class="btn btn-learnmore">Learn more...</a></p>
+<div class="collapse" id="learn_more_blender">
+<p><img src="img/screenshot-2017-04-18.png" class="screenshot"/>
+<div class="screenshot-caption">Blender rendering a scene using the <code>bitwrk-blender</code> add-on. The flat blocks in the image are work units that are currently being dispatched to the BitWrk service.</div>
+</p>
+<p>BitWrk describes itself as a <em>marketplace for computing power</em>. If that sounds
+abstract, relax!
+<p>In fact, BitWrk is currently covering only one use case: Being a
+distributed rendering service for <a href="http://blender.org/">Blender</a>, the free 3D
+rendering software.
+<p>BitWrk includes <code>bitwrk-blender</code>,
+an add-on enabling Blender to dispatch rendering jobs to the BitWrk service.
+</div>
+<p><a href="#learn_more_blender" role="button" data-toggle="collapse" class="btn btn-learnmore">Learn more...</a></p>
 </div><!-- .col-sm-8 -->
 </div><!-- .row -->
 </div><!-- .container -->
@@ -76,7 +94,15 @@ rendering times significantly.</p>
 <p>BitWrk allows you to switch sides and be a part of the swarm.</p>
 <p>By sharing your hardware, <em>you</em> will be able to make money with BitWrk. This is what makes BitWrk unique.</p>
 <p>Like in a stock exchange, you decice what price to sell for.</p>
-<p><a href="#anchor_selling" class="btn btn-learnmore">Learn more...</a></p>
+<div class="collapse" id="learn_more_selling">
+<p>BitWrk is unique in that it allows you to have your computer accept work from others.
+This feature is what makes BitWrk an open marketplace. You decide what price your computer works for.
+On successful completion of a task, your account is credited with that amount.</p>
+<p><img src="img/client-screenshot-2014-12-12-1.png" class="screenshot">
+In this screenshot, a worker is waiting for Blender rendering tasks which it sells for 100 &mu;BTC each.
+</p>
+</div>
+<p><a href="#learn_more_selling" role="button" data-toggle="collapse" class="btn btn-learnmore">Learn more...</a></p>
 </div><!-- .col-sm-8 -->
 </div><!-- .row -->
 </div><!-- .container -->
@@ -94,7 +120,18 @@ rendering times significantly.</p>
 new kind of cloud computing, firmly in the hands of the community.</p>
 <p>BitWrk depends on its community, and you're invited to be a part of it.
 Try buying some Blender rendering for an amount as small as 1&nbsp;mBTC.</p>
-<p><a href="#anchor_bitcoin" class="btn btn-learnmore">Learn more...</a></p>
+<div class="collapse" id="learn_more_bitcoin">
+<p>Bitcoin enables you to send money,
+via your computer or cell phone, to anybody else on the Internet. 
+<p>In order to <em>buy</em> computing power on BitWrk, you will need to either earn Bitcoin by
+<em>selling</em> computing power on BitWrk, or purchase some Bitcoin beforehand. Luckily,
+there are exchanges where you can buy Bitcoin for Dollars, Euros etc.
+<p>If you haven't used Bitcoin before, start here:
+<a href="http://bitcoin.org/">bitcoin.org</a>.
+<img src="img/client-screenshot-2014-12-12-3.png" class="screenshot">
+This screenshot shows the Bitcoin depositing process. Sending Bitcoin to the right address from your cell phone is easy thanks to <em>QR-codes</em>.
+</div>
+<p><a href="#learn_more_bitcoin" role="button" data-toggle="collapse" class="btn btn-learnmore">Learn more...</a></p>
 </div><!-- .col-sm-8 -->
 </div><!-- .row -->
 </div><!-- .container -->
@@ -105,14 +142,19 @@ Try buying some Blender rendering for an amount as small as 1&nbsp;mBTC.</p>
 <div class="container">
 
 <div class="row">
-<div class="col-sm-3" style="padding-top: 1em"><a href="https://www.facebook.com/bitwrk" class="btn btn-primary btn-block" target="_blank">BitWrk on Facebook</a></div>
-<div class="col-sm-6" style="padding-top: 1em"><a href="https://github.com/indyjo/bitwrk/releases" class="btn btn-download btn-block">Download BitWrk for Win/Mac/Linux</a></div>
-<div class="col-sm-3" style="padding-top: 1em"><a href="https://github.com/indyjo/bitwrk" class="btn btn-default btn-block" target="_blank">BitWrk on GitHub</a></div>
+<div class="col-md-12">
+<h5 class='flot-tick-label' style="padding-top: 1em">Blender 2.78 512M (mBTC)</h5>
+<div id="placeholder-1" style="height: 200px" ></div>
+<p>This chart displays activity in the last 24 hours. It works like a stock exchange.
+If demand for Blender rendering is low, prices fall. If demand is high, prices may rise.
+If you're seeing nothing, then there hasn't been any activity during the last 24 hours, which
+probably means that you have exclusive access to the swarm's rendering power.</p>
+</div>
 </div><!-- .row -->
 
-<div class="row" style="margin-top: 5%">
+<div class="row">
 
-<div class="col-md-12">
+<div class="col-md-7">
 
 <h1>Announcements</h1>
 <div class="media">
@@ -200,46 +242,8 @@ In his 5 minute talk, he explained the concepts behind BitWrk and gave an outloo
 </div><!-- .media-body -->
 </div><!-- .media -->
 
-
-<h5 class='flot-tick-label' style="padding-top: 1em">Blender 2.78 512M (mBTC)</h5>
-<div id="placeholder-1" style="height: 200px" ></div>
-<p>This chart displays activity in the last 24 hours. It works like a stock exchange.
-If demand for Blender rendering is low, prices fall. If demand is high, prices may rise.
-If you're seeing nothing, then there hasn't been any activity during the last 24 hours, which
-probably means that you have exclusive access to the swarm's rendering power.</p>
-
-<h1 id="anchor_blender">Blender</h1>
-<img src="img/screenshot-2014-12-14-1.png" class="screenshot"/>
-<div class="screenshot-caption text-muted">Blender rendering a scene using the <code>bitwrk-blender</code> add-on. The flat blocks in the image are work units that are currently being dispatched to the BitWrk service.</div>
-<p>BitWrk describes itself as a <em>marketplace for computing power</em>. If that sounds
-abstract, relax!
-<p>In fact, BitWrk is currently covering only one use case: Being a
-distributed rendering service for <a href="http://blender.org/">Blender</a>, the free 3D
-rendering software.
-<p>BitWrk includes <code>bitwrk-blender</code>,
-an add-on enabling Blender to dispatch rendering jobs to the BitWrk service.
-
-<h1 id="anchor_selling">Selling</h1>
-BitWrk is unique in that it allows you to have your computer accept work from others.
-This feature is what makes BitWrk an open marketplace. You decide what price your computer works for.
-On successful completion of a task, your account is credited with that amount.
-<img src="img/client-screenshot-2014-12-12-1.png" class="screenshot">
-In this screenshot, a worker is waiting for Blender rendering tasks which it sells for 100 µBTC each.
-
-
-<h1 id="anchor_bitcoin">Bitcoin</h1>
-<img src="img/BC_Logotype_Reverse.png" class="screenshot thumbnail-width thumbnail pull-right">
-<p>BitWrk uses <em>Bitcoin</em>, a novel payment method. Bitcoin enables you to send money,
-via your computer or cell phone, to anybody else on the Internet. 
-<p>In order to <em>buy</em> computing power on BitWrk, you will need to either earn Bitcoin by
-<em>selling</em> computing power on BitWrk, or purchase some Bitcoin beforehand. Luckily,
-there are exchanges where you can buy Bitcoin for Dollars, Euros etc.
-<p>If you haven't used Bitcoin before, start here:
-<a href="http://bitcoin.org/">bitcoin.org</a>.
-<img src="img/client-screenshot-2014-12-12-3.png" class="screenshot">
-This screenshot shows the Bitcoin depositing process. Sending Bitcoin to the right address from your cell phone is easy thanks to <em>QR-codes</em>.
-
-
+</div><!-- .col -->
+<div class="col-md-5">
 <h1>FAQ</h1>
 <h4>Frequently Asked Questions</h4>
 <dl>
@@ -258,9 +262,12 @@ This does not only look like a Bitcoin address, it is one. BitWrk's algorithms a
 technology.
 <dt>Does BitWrk cost money?
 <dd>The BitWrk client software is free (in fact, both client and server are Open Source).
-For buying computing power, you need a very small amount of money per transaction. That
+For buying computing power, you bid a very small amount of money per transaction. That
 is the whole idea behind BitWrk. The service itself will deduct a small fee (currently
-3% but subject to change) off the price of each transaction.
+3% but subject to change) off the price of each transaction.</dd>
+<dt>Do I need money to try out BitWrk?</dt>
+<dd>No. It is currently possible to bid <strong>0 BTC</strong> for Blender rendering,
+and there are servers selling for this price.</dd>
 <dt>Can I use BitWrk for privacy-sensitive projects?</dt>
 <dd>At the moment, no. Any seller may copy the work data you transmit. In a future version,
 there will be an option to restrict sellers to a trusted group.</dd>
@@ -280,7 +287,7 @@ user behavior rating system.
 </dl>
 
 
-</div><!-- .col-md-12-->
+</div><!-- .col -->
 </div><!-- .row -->
 </div><!-- .container -->
 </div><!-- .maincontent -->
