@@ -88,6 +88,7 @@ h1, h2, h3, h4, h5, h6, dt {
 .midsection3 {
 	color: #C1E2FB;
 	background: rgb(89, 144, 185);
+	border-bottom: 3px solid rgb(197, 197, 197);
 }
 
 .midsection h1, .midsection h2, .midsection h3, .midsection h4, .midsection h5, .midsection h6, .midsection dt, .midsection a {
@@ -112,7 +113,8 @@ h1, h2, h3, h4, h5, h6, dt {
 	border-bottom: 1px solid rgb(89, 144, 185);
 	border-top: 1px solid rgb(168, 69, 42);
 	background: #282828;
-	color: rgb(168, 69, 42);
+	/*color: rgb(168, 69, 42);*/
+	color: #ed6d4a;
 }
 
 .btn-download {

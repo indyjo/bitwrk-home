@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>BitWrk - Bitcoin-Fueled Peer-to-Peer Blender Rendering</title>
+<meta charset="utf-8" /> 
 <meta name="viewport" content="width=device-width" />
 <link rel="stylesheet" type="text/css" href="css/site.css" />
 <link rel="shortcut icon" href="img/favicon.ico" />
@@ -28,15 +29,15 @@
 </div>
 <div class="row">
 <div class="col-sm-4">
-<h1>Buy</h1>
-<p>Accelerate your work by harnessing the computing power of the crowd, when you need it.
+<h1>Render</h1>
+<p>Accelerate your Blender rendering with the computing power of the swarm.
 </div><!-- .col-sm-4 -->
 <div class="col-sm-4">
-<h1>Sell</h1>
-<p>Monetize your hardware by providing computing power to the crowd in times of low workload.
+<h1>Contribute</h1>
+<p>Monetize your hardware by providing computing power to the swarm.
 </div><!-- .col-sm-4 -->
 <div class="col-sm-4">
-<h1>Trade</h1>
+<h1>Exchange</h1>
 <p>Pay and get paid in Bitcoin, the independent, decentralized Internet currency.
 </div><!-- .row -->
 </div><!-- .col-sm-4 -->
@@ -51,7 +52,7 @@
 
 <div class="row">
 <div class="col-sm-3" style="padding-top: 1em"><a href="https://www.facebook.com/bitwrk" class="btn btn-download btn-block" target="_blank">BitWrk on Facebook</a></div>
-<div class="col-sm-6" style="padding-top: 1em"><a href="https://github.com/indyjo/bitwrk/releases" class="btn btn-download btn-block">Download BitWrk for Win/Mac/Linux</a></div>
+<div class="col-sm-6" style="padding-top: 1em"><a href="https://github.com/indyjo/bitwrk/releases/v0.6.0" class="btn btn-download btn-block">Download BitWrk for Win/Mac/Linux</a></div>
 <div class="col-sm-3" style="padding-top: 1em"><a href="https://github.com/indyjo/bitwrk" class="btn btn-download btn-block" target="_blank">BitWrk on GitHub</a></div>
 </div><!-- .row -->
 
@@ -72,14 +73,14 @@ produce 3D pictures and animations, then BitWrk might be the right tool for you.
 rendering times significantly.</p>
 <div class="collapse" id="learn_more_blender">
 <p><img src="img/screenshot-2017-04-18.png" class="screenshot"/>
-<div class="screenshot-caption">Blender rendering a scene using the <code>bitwrk-blender</code> add-on. The flat blocks in the image are work units that are currently being dispatched to the BitWrk service.</div>
+<div class="screenshot-caption">Blender rendering a scene using the <code>render_bitwrk</code> add-on. The flat blocks in the image are work units that are currently being dispatched to the BitWrk service.</div>
 </p>
 <p>BitWrk describes itself as a <em>marketplace for computing power</em>. If that sounds
 abstract, relax!
 <p>In fact, BitWrk is currently covering only one use case: Being a
 distributed rendering service for <a href="http://blender.org/">Blender</a>, the free 3D
 rendering software.
-<p>BitWrk includes <code>bitwrk-blender</code>,
+<p>BitWrk includes <code>render_bitwrk</code>,
 an add-on enabling Blender to dispatch rendering jobs to the BitWrk service.
 </div>
 <p><a href="#learn_more_blender" role="button" data-toggle="collapse" class="btn btn-learnmore">Learn more...</a></p>
@@ -164,17 +165,16 @@ probably means that you have exclusive access to the swarm's rendering power.</p
 <h1>Announcements</h1>
 <div class="media">
 <div class="media-left">
-<a href="https://github.com/indyjo/bitwrk/releases/tag/v0.6.0-rc1"
-><img src="img/bitwrk_prerelease.png" class="thumbnail-width"></a>
+<a href="https://github.com/indyjo/bitwrk/releases/tag/v0.6.0"
+><img src="img/bitwrk_release.png" class="thumbnail-width"></a>
 </div><!-- .media-left -->
 <div class="media-body">
-<h4 class="media-heading">Release Candidate 1 of BitWrk 0.6.0 <small>Apr 19, 2017</small></h4>
-<p>BitWrk invites everybody to test this release candidate of the upcoming version 0.6.0, featuring
-major new features and enhancements for Blender users.</p>
-<p>Read
-<a href="https://github.com/indyjo/bitwrk/releases/tag/v0.6.0-rc1"
->the release notes</a> for instructions on how to get BitWrk 0.6.0-rc1 and enjoy some
-<strong>FREE BitWrk rendering!</strong></p>
+<h4 class="media-heading">BitWrk 0.6.0 "Mars" released <small>Apr 23, 2017</small></h4>
+<p>BitWrk proudly presents version 0.6.0 "Mars", featuring <strong>major new features and enhancements
+for Blender users</strong>. Why not give it a try today and enjoy some
+<strong>FREE Blender rendering?</strong></p>
+<p><a href="https://github.com/indyjo/bitwrk/releases/tag/v0.6.0"
+>Release notes and downloads</a></p>
 </div><!-- .media-body -->
 </div><!-- .media -->
 <div class="media">
@@ -183,7 +183,7 @@ major new features and enhancements for Blender users.</p>
 ><img src="img/btc-mag-logo.png" class="thumbnail-width"></a>
 </div><!-- .media-left -->
 <div class="media-body">
-<h4 class="media-heading">BitWrk Covered in Bitcoin Magazine <small>Apr 06, 2017</small></h4>
+<h4 class="media-heading">BitWrk covered in Bitcoin Magazine <small>Apr 06, 2017</small></h4>
 <p>"One of the more futuristic ideas for Bitcoin that has been floated around is that it
 could become the currency for payments between machines on some new kind of world
 computer. BitWrk is a project that has turned this concept into a
@@ -250,7 +250,6 @@ In his 5 minute talk, he explained the concepts behind BitWrk and gave an outloo
 </div><!-- .col -->
 <div class="col-md-5">
 <h1>FAQ</h1>
-<h4>Frequently Asked Questions</h4>
 <dl>
 <dt>Will BitWrk accelerate my computer?
 <dd>No. BitWrk will accelerate very specific software, and that software has been
