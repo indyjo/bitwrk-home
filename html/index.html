@@ -54,7 +54,7 @@
 
 <div class="row">
 <div class="col-sm-3" style="padding-top: 1em"><a href="https://www.facebook.com/bitwrk" class="btn btn-download btn-block" target="_blank">BitWrk on Facebook</a></div>
-<div class="col-sm-6" style="padding-top: 1em"><a href="https://github.com/indyjo/bitwrk/releases/v0.6.1" class="btn btn-download btn-block">Download BitWrk for Win/Mac/Linux</a></div>
+<div class="col-sm-6" style="padding-top: 1em"><a href="https://github.com/indyjo/bitwrk/releases" class="btn btn-download btn-block">Download BitWrk for Win/Mac/Linux</a></div>
 <div class="col-sm-3" style="padding-top: 1em"><a href="https://github.com/indyjo/bitwrk" class="btn btn-download btn-block" target="_blank">BitWrk on GitHub</a></div>
 </div><!-- .row -->
 
@@ -77,13 +77,15 @@ rendering times significantly.</p>
 <p><img src="img/screenshot-2017-04-18.png" class="screenshot"/>
 <div class="screenshot-caption">Blender rendering a scene using the <code>render_bitwrk</code> add-on. The flat blocks in the image are work units that are currently being dispatched to the BitWrk service.</div>
 </p>
-<p>BitWrk describes itself as a <em>marketplace for computing power</em>. If that sounds
-abstract, relax!
-<p>In fact, BitWrk is currently covering only one use case: Being a
-distributed rendering service for <a href="http://blender.org/">Blender</a>, the free 3D
-rendering software.
-<p>BitWrk includes <code>render_bitwrk</code>,
-an add-on enabling Blender to dispatch rendering jobs to the BitWrk service.
+<p><a href="http://blender.org/">Blender</a> is a free yet professional 3D rendering
+software. It has been used for animated movies such as
+<a href="http://www.caminandes.com/">Caminandes</a> and many more.</p>
+<p>BitWrk includes an add-on enabling Blender to dispatch rendering jobs to the BitWrk
+client software, wich will then publish them to the BitWrk service.
+By cutting render jobs into tiles ouf roughly equal rendering complexity and dispatching
+those to multiple computers at once, BitWrk is able to accelerate even single-frame renderings.
+This works with all Blender projects that use the <em>Cycles</em> rendering engine. 
+</p>
 </div>
 <p><a href="#learn_more_blender" role="button" data-toggle="collapse" class="btn btn-learnmore">Learn more...</a></p>
 </div><!-- .col-sm-8 -->
@@ -167,7 +169,19 @@ probably means that you have exclusive access to the swarm's rendering power.</p
 <h1>Announcements</h1>
 <div class="media">
 <div class="media-left">
-<a href="https://github.com/indyjo/bitwrk/releases/tag/v0.6.1"
+<a href="https://blenderday.de"
+><img src="img/blenderday2017.png" class="thumbnail-width"></a>
+</div><!-- .media-left -->
+<div class="media-body">
+<h4 class="media-heading">BitWrk on BlenderDay 2017</h4>
+<p>There will be a talk a bout BitWrk on this year's <a href="https://blenderday.de">BlenderDay</a>
+in Stuttgart on Aug 12/13.
+The talk will be held in German. Looking forward to see some of you there!
+</div><!-- .media-body -->
+</div><!-- .media -->
+<div class="media">
+<div class="media-left">
+<a href="https://github.com/indyjo/bitwrk/releases/tag/v0.6.2"
 ><img src="img/bitwrk_release.png" class="thumbnail-width"></a>
 </div><!-- .media-left -->
 <div class="media-body">
@@ -175,8 +189,8 @@ probably means that you have exclusive access to the swarm's rendering power.</p
 <p>BitWrk proudly presents version 0.6.0 "Mars", featuring <strong>major new features and enhancements
 for Blender users</strong>. Why not give it a try today and enjoy some
 <strong>FREE Blender rendering?</strong></p>
-<p><strong>Update May 1, 2017: </strong><a href="https://github.com/indyjo/bitwrk/releases/tag/v0.6.1"
->Bugfix release 0.6.1</a></p>
+<p><strong>Update May 23, 2017: </strong><a href="https://github.com/indyjo/bitwrk/releases/tag/v0.6.2"
+>Bugfix release 0.6.2</a> fixes several issues.</p>
 </div><!-- .media-body -->
 </div><!-- .media -->
 <div class="media">
