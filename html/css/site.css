@@ -152,12 +152,27 @@ ul.nav-tabs {
 	margin-bottom: 15px;
 }
 
-.thumbnail-width {
-	width: 266px;
-}
-
 a, a:hover {
 	color: #87c2ed;
+}
+
+div.ann {
+	padding-top: 15px;
+}
+
+.ann-gfx {
+	height: 54.14%;
+	padding-bottom: 5px;
+	overflow: hidden;
+	margin-right: -4px;
+}
+
+.ann-gfx img {
+	max-width: 100%;
+}
+
+small {
+	white-space: nowrap;
 }
 
 @media (max-width: 768px) {
