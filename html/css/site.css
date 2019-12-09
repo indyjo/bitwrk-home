@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6, dt {
 	font-size: 120%;
 }
 
-.btn-download:hover {
+.btn-download:hover, .btn-download:focus {
 	border-color: rgb(89, 144, 185);
 	background: rgb(89, 144, 185);
 	color: white;
