@@ -45,6 +45,7 @@
 </div><!-- .row -->
 <div class="row">
 <div class="col-sm-8 col-sm-offset-2">
+<a name="downloads_button"/>
 <a href="#downloads" role="button" data-toggle="collapse" class="btn btn-download btn-block"
    style="padding-bottom: 1.5ex; padding-top: 1.5ex;">Download BitWrk 0.6.5</a>
 </div>
@@ -71,6 +72,8 @@
     <a href="http://dl.bitwrk.net/render_bitwrk-0.6.5.zip" class="btn btn-download btn-block">Blender Add-On</a>
 </div>
 </div>
+<h3>Step 3</h3>
+<p>Watch the <a href=https://www.youtube.com/watch?v=KmwcxwhIRr0">instruction video</a> and learn how to accelerate your renderings with BitWrk!</p>
 </div>
 </div>
 </div><!-- .jumbotron -->
@@ -183,15 +186,13 @@ This screenshot shows the Bitcoin depositing process. Sending Bitcoin to the rig
 <div class="row">
 <div class="col-sm-3 ann">
 <div class="ann-gfx">
-<a href="https://github.com/indyjo/bitwrk/releases/tag/v0.6.4"
+<a href="https://github.com/indyjo/bitwrk/releases/tag/v0.6.5"
 ><img src="img/bitwrk_release.png"></a>
 </div><!-- .ann-gfx -->
-<h4 class="media-heading">BitWrk 0.6.0 "Mars" released <small>Apr 23, 2017</small></h4>
-<p>BitWrk proudly presents version 0.6.0 "Mars", featuring <strong>major new features and enhancements
-for Blender users</strong>. Why not give it a try today and enjoy some
-<strong>FREE Blender rendering?</strong></p>
-<p><strong>Update Apr 22, 2018: </strong><a href="https://github.com/indyjo/bitwrk/releases/tag/v0.6.4"
->Maintenance release 0.6.4</a> fixes several bugs and adds user interface for local GPU rendering.</p>
+<h4 class="media-heading">BitWrk 0.6.5 released <small>October 19, 2019</small></h4>
+<p>BitWrk proudly presents <a href="https://github.com/indyjo/bitwrk/releases/tag/v0.6.5">version 0.6.5</a>, the last in the "Mars" series of BitWrk and the last BitWrk for Blender 2.79.
+This version features a preview of a new system for work data transmission, where sellers help each others to get the work data they need.
+<a href="#downloads_button">Download Now.</a>
 </div><!-- .col .ann -->
 
 <div class="col-sm-3 ann">
@@ -280,9 +281,19 @@ one hour on average. Withdrawals from BitWrk are planned, but not implemented ye
 accounts. Keep your deposits small in order to avoid the situation, until withdrawals can
 be triggered with the Bitcoin client. Until then, please ask the developer, Jonas Eschenburg,
 jonas (at) bitwrk.net, to send you the money on your account.</dd>
-<dt>What's that animation on this page?</dt>
-<dd>Apart from looking pretty, it is actually a simulation of BitWrk's possible, future
-user behavior rating system.</dd>
+<dt>My tiles don't render, what can I do?</dt>
+<dd>
+    Make sure you have <em>published</em> your tiles using BitWrk's web UI
+    (<a href="https://youtu.be/KmwcxwhIRr0?t=130">video</a>).
+    If you observe that tiles frequently time out (i.e., they become grey in the web UI),
+    look at what state in which they time out. If the are in TRANSMITTING state, the
+    work data transmission might take longer than expected. If they are in WORKING state,
+    the tile rendering takes longer than expected. BitWrk is supposed to calculate a good
+    tile size automatically, but the algorithm doesn't work perfectly yet. In that case, you
+    can make tiles smaller by increasing the "boost factor" (in the Blender add-on: "Show
+    advanced options" &rarr; "Boost factor"). A boost factor of 2 will create twice as many,
+    and hence, smaller tiles.
+</dd>
 </dl>
 
 
